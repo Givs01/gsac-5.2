@@ -206,10 +206,3 @@ document.addEventListener('DOMContentLoaded', function () {
         window.history.back();
     }
 
-    window.onload = function() {
-        window.scrollTo({
-            top: 0,
-            left: 0,
-            behavior: 'smooth'
-        });
-    };
